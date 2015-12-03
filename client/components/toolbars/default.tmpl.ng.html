@@ -1,0 +1,70 @@
+<md-toolbar layout="row" layout-align="space-between center">
+    <span>
+        <md-button class="md-icon-button" hide-gt-md ng-click="openSideNav('left')" aria-label="side navigation">
+            <md-icon md-font-icon="icon-menu"></md-icon>
+        </md-button>
+        <h2 class="padding-10" breadcrumbs="menu"></h2>
+    </span>
+    <span>
+<!--         <md-menu >
+            <md-button class="md-icon-button" aria-label="language" ng-click="$mdOpenMenu()">
+                <md-icon md-font-icon="icon-language"></md-icon>
+            </md-button>
+            <md-menu-content width="3">
+                <md-menu-item ng-repeat="language in languages">
+                    <md-button ng-click="switchLanguage(language.key)">
+                        {{language.name | translate}}
+                    </md-button>
+                </md-menu-item>
+            </md-menu-content>
+        </md-menu> -->
+
+    <!--     <md-button class="md-icon-button toolbar-button animated" ng-click="toggleNotificationsTab(0)">
+            <md-icon md-font-icon="icon-email"></md-icon>
+            <span class="toolbar-button-badge animated" theme-background="accent" ng-class="{'toolbar-button-badge-new':emailNew}">5</span>
+        </md-button>
+        <md-button class="md-icon-button toolbar-button" ng-click="toggleNotificationsTab(1)">
+            <md-icon md-font-icon="icon-phone"></md-icon>
+            <span class="toolbar-button-badge" theme-background="accent">2</span>
+        </md-button> -->
+        <md-menu>
+            <md-button aria-label="Open user menu" ng-click="$mdOpenMenu()">
+                {{$root.currentUser.username}}
+            </md-button>
+            <md-menu-content width="4">
+                <!--  <md-menu-item>
+                    <md-button ng-click="toggleNotificationsTab(2)">
+                        <md-icon md-font-icon="icon-settings"></md-icon>
+                        {{'ADMIN.TOOLBAR.SETTINGS' | translate}}
+                    </md-button>
+                </md-menu-item>
+                <md-menu-item>
+                    <md-button ng-click="profile()">
+                        <md-icon md-font-icon="icon-person"></md-icon>
+                        {{'ADMIN.TOOLBAR.PROFILE' | translate}}
+                    </md-button>
+                </md-menu-item>
+                <md-menu-divider></md-menu-divider> -->
+                <md-menu-item>
+                    <md-button ng-click="logout()">
+                        <md-icon md-font-icon="icon-exit-to-app"></md-icon>
+                        {{'MENU.AUTH.LOGOUT' | translate}}
+                    </md-button>
+                </md-menu-item>
+            </md-menu-content>
+        </md-menu>
+        <md-menu ng-show="isAdmin()">
+            <md-button class="md-icon-button" aria-label="Setting" ng-click="$mdOpenMenu()">
+                <md-icon md-font-icon="zmdi zmdi-settings"></md-icon>
+            </md-button>
+            <md-menu-content width="3">
+                <md-menu-item>
+                    <md-button ng-click="openUsers()">
+                        <md-icon md-font-icon="zmdi zmdi-accounts-alt"></md-icon>
+                        {{'MENU.SETTINGS.MANAGE-USERS' | translate}}
+                    </md-button>
+                </md-menu-item>
+            </md-menu-content>
+        </md-menu>
+    </span>
+</md-toolbar>

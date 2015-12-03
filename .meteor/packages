@@ -1,0 +1,78 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+
+# Sass
+fourseven:scss
+simple:highlight.js
+
+# Accounts
+accounts-password
+accounts-facebook
+accounts-twitter
+accounts-google
+accounts-base
+#accounts-ui
+accounts-ui-unstyled
+service-configuration
+email
+
+
+# Angular
+angular
+urigo:angular-ui-router
+angular:angular-sanitize
+angular:angular-cookies
+angular:angular-animate
+angular:angular-touch
+angular:angular-aria
+angular:angular-messages
+angular:angular-material@0.12.0-rc1
+ixdi:material-design-iconic-font
+sebhero:angular-material-icons
+jasonaibrahim:angular-moment
+
+# Local packages
+angular-local-storage
+angular-infinite-scroll
+angular-translate
+angular-print
+angular-file-upload
+canvasjs
+count-up
+hashids
+ui-grid
+
+# Pagination
+tmeasday:publish-counts
+
+# Models
+aldeed:simple-schema
+aldeed:collection2
+
+# Misc
+anti:fake
+rzymek:fullcalendar
+momentjs:moment
+percolate:synced-cron
+cfs:http-methods
+
+meteorhacks:aggregate
+standard-minifiers
+meteor-base
+mobile-experience
+mongo
+session
+jquery
+tracker
+logging
+reload
+random
+ejson
+spacebars
+check
+
+

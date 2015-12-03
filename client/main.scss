@@ -1,0 +1,48 @@
+
+@import "{}/client/scss/reset";
+@import "{}/client/scss/tables";
+
+@import "{}/client/scss/material-icons";
+@import "{}/client/scss/material-overrides";
+@import "{}/client/scss/contextual";
+@import "{}/client/scss/typography";
+@import "{}/client/scss/utilities";
+@import "{}/client/scss/social";
+@import "{}/client/scss/print";
+
+@import "{}/client/scss/animate.css-scss/_properties.scss";
+@import "{}/client/scss/animate.css-scss/_attention-seekers/attention-seekers.scss";
+@import "{}/client/scss/animate.css-scss/_bouncing-entrances/bouncing-entrances.scss";
+@import "{}/client/scss/animate.css-scss/_bouncing-exits/bouncing-exits.scss";
+@import "{}/client/scss/animate.css-scss/_fading-entrances/fading-entrances.scss";
+@import "{}/client/scss/animate.css-scss/_fading-exits/fading-exits.scss";
+@import "{}/client/scss/animate.css-scss/_flippers/flippers.scss";
+@import "{}/client/scss/animate.css-scss/_lightspeed/lightspeed.scss";
+@import "{}/client/scss/animate.css-scss/_rotating-entrances/rotating-entrances.scss";
+@import "{}/client/scss/animate.css-scss/_rotating-exits/rotating-exits.scss";
+@import "{}/client/scss/animate.css-scss/_sliding-entrances/sliding-entrances.scss";
+@import "{}/client/scss/animate.css-scss/_sliding-exits/sliding-exits.scss";
+@import "{}/client/scss/animate.css-scss/_specials/specials.scss";
+@import "{}/client/scss/animate.css-scss/_zooming-entrances/zooming-entrances.scss";
+@import "{}/client/scss/animate.css-scss/_zooming-exits/zooming-exits.scss";
+
+@import "{}/client/components/footer/footer.tmpl.scss";
+@import "{}/client/components/loader/loader.scss";
+@import "{}/client/components/side-menu/side-menu.scss";
+@import "{}/client/components/sidebar-left/sidebar-left.tmpl.scss";
+@import "{}/client/components/sidebar-right/sidebar-right.tmpl.scss";
+@import "{}/client/components/toolbars/default.tmpl.scss";
+@import "{}/client/components/widget/widget.tmpl.scss";
+@import "{}/client/components/floating-buttons/floating-buttons.scss";
+
+@import "{}/client/layouts/admin-panel/admin-panel.tmpl.scss";
+@import "{}/client/modules/authentication/login/login.tmpl.scss";
+@import "{}/client/modules/authentication/profile/profile.tmpl.scss";
+@import "{}/client/modules/authentication/authentication.module.scss";
+@import "{}/client/modules/company/company.tmpl.scss";
+@import "{}/client/modules/dashboard/dashboard.tmpl.scss";
+
+html, body {
+  height: 100%;
+}
+

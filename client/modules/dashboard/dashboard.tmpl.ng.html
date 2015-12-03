@@ -1,0 +1,6 @@
+<div layout="column" layout-fill flex="grow">
+    <div class="maincontent" ui-grid="gridOptions" ui-grid-resize-columns ui-grid-move-columns ui-grid-save-state ui-grid-auto-resize ng-style="getTableStyle()" flex="grow" style="position:absolute;height:100%;width:100%;"></div>
+</div>
+<nav mfb-menu position="{{pos}}" effect="{{chosenEffect}}" label="hover here" active-icon="zmdi zmdi-more-vert" resting-icon="zmdi zmdi-menu" ng-repeat="pos in positions">
+    <a mfb-button icon="{{button.icon}}" label="{{button.label}}" ng-click="fabClicked('{{button.click}}')" ng-repeat="button in buttons"></a>
+</nav>

@@ -1,0 +1,14 @@
+{
+  "MENU": {
+    "COMPANY": "Company "
+  },
+  "SETTINGS": {
+    "SEARCH-TEXT": "Search",
+    "CREATED": "Registered",
+    "USEREMAIL": "Email",
+    "USERNAME": "User name",
+    "ROLES": "Roles",
+    "SUBMIT": "Save",
+    "USER_UPDATED": "User updated succesfully"
+  }
+}
